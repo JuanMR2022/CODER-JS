@@ -1,4 +1,5 @@
-function gen_table(){
+function gen_table(e){
+    e.preventDefault()
     document.getElementById("tab").innerHTML="";
     let n=Number(document.getElementById("capital").value);
     let n2=Number(document.getElementById("couta").value);
@@ -31,3 +32,6 @@ function gen_table(){
         alert("Falta ingresar un Número");
     }
 }
+
+const btnCalcular = document.getElementById('btn-calcular');
+btnCalcular.addEventListener('click',gen_table);
