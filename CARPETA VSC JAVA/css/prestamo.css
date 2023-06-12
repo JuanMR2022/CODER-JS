@@ -1,5 +1,7 @@
 body{
-    background-image: none;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/584/389/non_2x/illustration-graphic-cartoon-character-of-financial-management-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1{
     text-align: center;
@@ -29,7 +31,7 @@ fieldset{
     background-color: #d1ddbe;
 }
 button{
-    background-color: #fdfef7;
+    background-color: #fffcfc;
     border: #173441 1.8px solid;
     width: 100px;
     font-family: 'arial';
@@ -66,3 +68,6 @@ td{
     border: #173441 2px solid;    
 }
 
+footer{
+    text-align: center;
+}
